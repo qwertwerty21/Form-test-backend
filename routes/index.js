@@ -6,7 +6,7 @@ const controller = require('../controllers');
 
 /* GET home page. */
 router.get('/', (req, res, next) => {
-  res.render('index', { title: 'Strive Quiz App' });
+  res.render('index', { title: "Sunny's Form Test Backend App" });
 });
 
 // get all questions
