@@ -39,7 +39,7 @@ These instructions will get you a copy of the project up and running on your loc
     "__v": 0
 }
 ```
-**Get All Quiz Questions**: `[GET]localhost:3001/question`
+### Get All Quiz Questions: `[GET]localhost:3001/question`
 **Sample Request Data:**
 ```
 none
@@ -66,7 +66,7 @@ none
     ...
  ]
 ```
-**Submit a Quiz Answer**: `[POST]localhost:3001/question/:questionID/answer`
+### Submit a Quiz Answer: `[POST]localhost:3001/question/:questionID/answer`
 **Sample Request Data:**
 ```
 {
